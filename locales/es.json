@@ -5,7 +5,7 @@
   "retos": {
   "reto1": "🎲 **Silencio absoluto** – No pueden hablar durante toda la partida.",
   "reto2":  "🎲 **Solo cuerpo a cuerpo** – No se pueden usar armas de fuego.",
-  "reto3":  "🎲 **Francotiradores silenciosos** – Solo rifles con mira o armas silenciadas.",
+  "reto3":  "🎲 **Francotiradores silenciosos** – Solo rifles con mira .",
   "reto4":  "🎲 **Sin Munición** – No podés agarrar cajas de munición.",
   "reto5":  "🎲 **Solo Pistolas** – ¡Solo pistolas! En esta partida, solo puedes usar armas de tipo pistola.",
   "reto6":  "🎲 **Loadout económico** – Todo el equipo debe costar menos de $200.",
@@ -27,8 +27,9 @@
   "reto22": "🎲 **Inverso** - Invertí los controles del mouse.",
   "reto23": "🎲 **Aleatorio puro** - Usa el comando /lodaut y lleva lo que te toque",
   "reto24": "🎲 **Cada kill, nueva arma** - Si matás un enemigo, debés cambiar tu arma principal por la suya",
-  "reto25": "🎲 **Hitman** - Solo armas con silenciador o que no hagan ruido"
-  
+  "reto25": "🎲 **Hitman** - Solo armas con silenciador o que no hagan ruido",
+  "reto26": "🎲 **Hemorragia letal** - Solo armas que produzcan daño de sangrado"
+
 
   },
  "comandos": {
@@ -273,7 +274,10 @@
       "herramientas": "Herramientas",
       "total_estimado": "Total estimado",
       "ajuste_maximo": "Se ajustó el loadout al máximo de {{maximo}} HuntDollars <:dollarhunt:1368733291846434887>",
-      "equipamiento_title": "Equipamiento Aleatorio"
+      "equipamiento_title": "Equipamiento Aleatorio",
+      "buena_suerte": "Buena suerte",
+      "reto": "☠️ Desafío del Cazador ☠️"
+    
     },
   
 

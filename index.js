@@ -13,14 +13,18 @@ client.commands = new Collection();
 client.settings = {};
 const settingsFilePath = path.join(__dirname, 'settings.json');
 
-// Cargar estadísticas desde stats.json
+// Rutas y estructura por defecto de estadísticas
 const statsFilePath = path.join(__dirname, 'stats.json');
-let stats = { languages: { es: 0, en: 0, pt: 0 }, commands: { loadout: 0, challenge: 0, version: 0, donate: 0 } };
+const defaultStats = {
+  languages: { es: 0, en: 0, pt: 0 },
+  commands: { loadout: 0, challenge: 0, version: 0, donate: 0 }
+};
 
-if (fs.existsSync(statsFilePath)) {
-  const savedStats = fs.readFileSync(statsFilePath);
-  stats = JSON.parse(savedStats);
+// Crear stats.json si no existe
+if (!fs.existsSync(statsFilePath)) {
+  fs.writeFileSync(statsFilePath, JSON.stringify(defaultStats, null, 2));
 }
+let stats = JSON.parse(fs.readFileSync(statsFilePath));
 
 // Si existe settings.json, lo cargamos al iniciar
 if (fs.existsSync(settingsFilePath)) {
@@ -63,20 +67,23 @@ client.on('interactionCreate', async interaction => {
   // Guardar idioma si el comando tiene esa opción
   const idiomaSeleccionado = interaction.options.getString('idioma');
   const serverId = interaction.guild?.id;
-  
-  // Actualizar estadísticas de idiomas
+
   if (idiomaSeleccionado && serverId) {
     client.settings[serverId] = idiomaSeleccionado;
-    stats.languages[idiomaSeleccionado] += 1; // Incrementar el contador del idioma
+
+    if (!stats.languages[idiomaSeleccionado]) {
+      stats.languages[idiomaSeleccionado] = 0;
+    }
+
+    stats.languages[idiomaSeleccionado] += 1;
     fs.writeFileSync(settingsFilePath, JSON.stringify(client.settings, null, 2));
   }
 
   // Actualizar estadísticas de comandos
   if (stats.commands[interaction.commandName] !== undefined) {
-    stats.commands[interaction.commandName] += 1; // Incrementar el contador del comando
+    stats.commands[interaction.commandName] += 1;
   }
 
-  // Guardar estadísticas en stats.json
   fs.writeFileSync(statsFilePath, JSON.stringify(stats, null, 2));
 
   try {

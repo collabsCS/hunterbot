@@ -21,7 +21,14 @@
   "reto16": "🎲 **Moeda Amaldiçoada** – Seu equipamento não pode ultrapassar 50 💵.",
   "reto17": "🎲 **Mãos Vazias** – Não é permitido levar ferramentas ou consumíveis.",
   "reto18": "🎲 **O Franco-atirador Cego** – Use um rifle longo sem mira.",
-  "reto19": "🎲 **Uma Vida** – Se alguém morrer, não pode ser revivido."
+  "reto19": "🎲 **Uma Vida** – Se alguém morrer, não pode ser revivido.",
+  "reto20": "🎲 **Roronoa Zoro** - Katanas duplas",
+  "reto21": "🎲 **Modo Hardcore** - Jogue com o HUD completamente desativado.",
+  "reto22": "🎲 **Inverso** - Inverter os controles do mouse.",
+  "reto23": "🎲 **Aleatório puro** - Use o comando /lodaut e leve o que vier.",
+  "reto24": "🎲 **Cada kill, nova arma** - Se matar um inimigo, deve trocar sua arma principal pela dele.",
+  "reto25": "🎲 **Hitman** - Apenas armas com silenciador ou que não façam barulho.",
+  "reto26": "🎲 **Hemorragia letal** - Apenas armas que causam dano de sangramento."
   },
   "help_title": "Comandos Disponíveis",
   "help_description": "Estes são os comandos que você pode usar com o bot:",
@@ -244,13 +251,15 @@
 
 
   "ui": {
-    "primaria": "Primária",
-    "secundaria": "Secundária",
-    "consumibles": "Consumíveis",
-    "herramientas": "Ferramentas",
-    "total_estimado": "Total estimado",
-    "ajuste_maximo": "Loadout ajustado para o máximo de {{maximo}} HuntDollars <:dollarhunt:1368733291846434887>",
-    "equipamiento_title": "Loadout Aleatório"
+  "primaria": "Primária",
+  "secundaria": "Secundária",
+  "consumibles": "Consumíveis",
+  "herramientas": "Ferramentas",
+  "total_estimado": "Total estimado",
+  "ajuste_maximo": "O loadout foi ajustado para o máximo de {{maximo}} HuntDollars <:dollarhunt:1368733291846434887>",
+  "equipamiento_title": "Loadout Aleatório",
+  "buena_suerte": "Boa sorte",
+  "reto": "☠️ Desafio do Caçador ☠️"
   },
 
   "version": {

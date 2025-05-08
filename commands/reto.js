@@ -17,7 +17,7 @@ module.exports = {
 
     const embed = new EmbedBuilder()
       .setColor('#222222')
-      .setTitle('**☠️ Desafío del Cazador ☠️**')
+      .setTitle(`**${t(idioma,'ui.reto')}**`)
       .setDescription(`
         🩸 **${retoTraducido}**
 

@@ -21,7 +21,15 @@
     "reto16": "🎲 **Cursed Coin** – Your loadout cannot exceed 50 💵.",
     "reto17": "🎲 **Empty Hands** – No tools or consumables allowed.",
     "reto18": "🎲 **Blind Sniper** – Use a long rifle without a scope.",
-    "reto19": "🎲 **One Life** – If someone dies, they cannot be revived."
+    "reto19": "🎲 **One Life** – If someone dies, they cannot be revived.",
+    "reto20": "🎲 **Roronoa Zoro** - Dual katanas",
+    "reto21": "🎲 **Hardcore Mode** - Play with the HUD completely disabled.",
+    "reto22": "🎲 **Inverse** - Reverse the mouse controls.",
+    "reto23": "🎲 **Pure Random** - Use the /lodaut command and take whatever you get.",
+    "reto24": "🎲 **One kill, new weapon** - If you kill an enemy, you must change your main weapon to theirs.",
+    "reto25": "🎲 **Hitman** - Only weapons with silencers or that don't make noise.",
+    "reto26": "🎲 **Lethal Bleeding** - Only weapons that cause bleeding damage."
+
   },
   "comandos": {
     "reto": "¡Tu reto es: {{reto}}!"
@@ -254,13 +262,15 @@
 
     },
     "ui": {
-    "primaria": "Primary",
-    "secundaria": "Secondary",
-    "consumibles": "Consumables",
-    "herramientas": "Tools",
-    "total_estimado": "Estimated total",
-    "ajuste_maximo": "Loadout adjusted to a maximum of {{maximo}} HuntDollars <:dollarhunt:1368733291846434887>",
-    "equipamiento_title": "Random Loadout"
+  "primaria": "Primary",
+  "secundaria": "Secondary",
+  "consumibles": "Consumables",
+  "herramientas": "Tools",
+  "total_estimado": "Estimated Total",
+  "ajuste_maximo": "The loadout has been adjusted to the maximum of {{maximo}} HuntDollars <:dollarhunt:1368733291846434887>",
+  "equipamiento_title": "Random Loadout",
+  "buena_suerte": "Good luck",
+  "reto": "☠️ Hunter's Challenge ☠️"
   },
   
   "version": {

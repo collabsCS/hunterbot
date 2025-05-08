@@ -1,12 +1,12 @@
 {
   "languages": {
-    "es": 0,
+    "es": 1,
     "en": 0,
-    "pt": 0
+    "pt": 1
   },
   "commands": {
     "loadout": 0,
-    "challenge": 0,
+    "challenge": 7,
     "version": 0,
     "donate": 0
   }
