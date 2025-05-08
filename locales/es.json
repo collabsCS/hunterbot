@@ -1,0 +1,298 @@
+{
+  "idioma": {
+    "configurado": "El idioma ha sido configurado a Español."
+  },
+  "retos": {
+  "reto1": "🎲 **Silencio absoluto** – No pueden hablar durante toda la partida.",
+  "reto2":  "🎲 **Solo cuerpo a cuerpo** – No se pueden usar armas de fuego.",
+  "reto3":  "🎲 **Francotiradores silenciosos** – Solo rifles con mira o armas silenciadas.",
+  "reto4":  "🎲 **Sin Munición** – No podés agarrar cajas de munición.",
+  "reto5":  "🎲 **Solo Pistolas** – ¡Solo pistolas! En esta partida, solo puedes usar armas de tipo pistola.",
+  "reto6":  "🎲 **Loadout económico** – Todo el equipo debe costar menos de $200.",
+  "reto7":  "🎲 **Sin matar cazadores** – Prohibido iniciar combate PvP.",
+  "reto8":  "🎲 **Sangre Fría** – Solo puedes disparar cuando sea absolutamente necesario.",
+  "reto9":  "🎲 **Sin Consumibles** – Sobreviví sin consumibles.",
+  "reto10":  "🎲 **El recolector** – Solo podés usar lo que encuentres en el mapa.",
+  "reto11":  "🎲 **Sin Mapa** – No podés usar el mapa durante la partida.",
+  "reto12":  "🎲 **Solo Arcos** – Solo podés usar arcos y flechas.",
+  "reto13":  "🎲 **Explorador Ciego** – No podés marcar pistas ni usar visión oscura.",
+  "reto14":  "🎲 **Solo fuego** – Todo tu equipo debe tener daño de fuego.",
+  "reto15":  "🎲 **Cazador químico** - Solo armas con veneno y bombas venenosas",
+  "reto16":  "🎲 **Moneda maldita** – Tu loadout no puede superar los 50 💵.",
+  "reto17":  "🎲 **Manos Vacías** – No se permite llevar herramientas ni consumibles.",
+  "reto18":  "🎲 **El Francotirador Ciego** – Usá un rifle largo pero sin la mira.",
+  "reto19":  "🎲 **Una vida** – Si uno muere, no se lo revive.",
+  "reto20": "🎲 **Roronoa Zoro** - Doble katana",
+  "reto21": "🎲 **Modo Hardcore** - Juega con el HUD completamente desactivado.",
+  "reto22": "🎲 **Inverso** - Invertí los controles del mouse.",
+  "reto23": "🎲 **Aleatorio puro** - Usa el comando /lodaut y lleva lo que te toque",
+  "reto24": "🎲 **Cada kill, nueva arma** - Si matás un enemigo, debés cambiar tu arma principal por la suya",
+  "reto25": "🎲 **Hitman** - Solo armas con silenciador o que no hagan ruido"
+  
+
+  },
+ "comandos": {
+    "reto": "¡Tu reto es: {{reto}}!"
+
+  },
+  "help_title": "Comandos disponibles",
+  "help_description": "Estos son los comandos que puedes usar con el bot:",
+  "help_commands": {
+    "equipamiento": "Muestra tu equipamiento.",
+    "listas": "Muestra las listas disponibles.",
+    "estadisticas": "Muestra tus estadísticas.",
+    "retos": "Muestra los retos disponibles.",
+    "version": "Muestra la versión actual del bot.",
+    "help": "Muestra este mensaje de ayuda."
+  },
+  "footer": "¡Buena Caceria!",
+  
+  
+  "donar": {
+    "texto": "¡Si te gusta el bot y querés apoyar su desarrollo, podés invitarme un café!",
+    "boton": "☕ Donar en Ko-fi",
+    "discord_button": "Nuestro Discord"
+  },
+
+  "mensajes": {
+    "buena_suerte": "¡Buena suerte en la caza!"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "armas": {
+  "agent_weapon": "Arma de agente",
+  "brawler_agent_weapon": "Arma de agente camorrista",
+  "hand_crossbow": "Ballesta de mano",
+  "baseball_bat": "Bate de béisbol",
+  "bornheim_No3": "Bornheim No.3",
+  "Bornheim_No3_with_silencer": "Bornheim No.3 con silenciador",
+  "bornheim_No3_extended": "Bornheim No.3 extendido",
+  "dolch_96": "Dolch 96",
+  "dolch_96_diana": "Dolch 96 Diana",
+  "dolch_96_claw'": "Dolch 96 garra",
+  "battle_axe": "Hacha de batalla",
+  "katana": "Katana",
+  "letmat": "LetMat",
+  "machete": "Machete",
+  "railroad_hammer": "Martillo de ferrioviario",
+  "nagant_m1895": "Nagant m1895",
+  "nagant_m1895_with_silencer": "Nagant m1895 con silenciador",
+  "new_army": "Nuevo ejercito",
+  "swift_new_army": "Nuevo ejercito veloz",
+  "pax": "Pax",
+  "pax_claw": "Pax garra",
+  "pax_marksman_power": "Pax de tirador poderoso",
+  "sparks_pistol": "Pistola Sparks",
+  "sparks_pistol_with_silencer": "Pistola Sparks con silenciador",
+  "extended_pistol": "Pistola alargada",
+  "modified_chain_pistol": "Pistola de cadena modificada",
+  "modified_pistoll": "Pistola modificada",
+  "cavalry_saber": "Sable de caballería",
+  "scottfield": "Scottfield",
+  "brawler_scottfield": "Scottfield camorrista",
+  "firebreather_scottfield": "Scottfield escupefuego",
+  "swift_scottfield": "Scottfield veloz",
+  "auto_5": "Auto 5",
+  "crossbow": "Ballesta",
+  "crossbow_deadeye": "Ballesta tirador certero",
+  "berthier_1892": "Berthier 1892",
+  "berthier_1892_deadeye": "Berthier 1892 tirador certero",
+  "berthier_1892_marksman": "Berthier 1892 tirador preciso",
+  "berthier_1892_riposte": "Berthier 1892 cortante",
+  "carabine_1865": "Carabina 1865",
+  "carabine_1865_aperture": "Carabina 1865 apertura",
+  "carabine_1865_silencer": "Carabina 1865 con silenciador",
+  "carabine_lemat": "Carabina LeMat",
+  "carabine_lemat_marksman": "Carabina LeMat tirador preciso",
+  "cenntenial": "Centennial",
+  "cenntenial_trauma": "Centennial trauma",
+  "cenntenial_sniper": "Centennial de francotirador",
+  "frontier_73c": "Conquistador 73c",
+  "frontier_73c_marksman": "Conquistador 73c tirador preciso",
+  "frontier_73c_silencer": "Conquistador 73c con silenciador",
+  "drilling": "Drilling",
+  "krag": "Krag",
+  "krag_silencer": "Krag con silenciador",
+  "krag_bayonet": "Krag con bayoneta",
+  "krag_marksman": "Krag de francotirador",
+  "lebel_1866": "Lebel 1866",
+  "lebel_1866_talon": "Lebel 1866 garra",
+  "lebel_1866_aperture": "Lebel 1866 apertura",
+  "lebel_1866_marksman": "Lebel 1866 tirador preciso",
+  "mako_1895": "Mako 1895",
+  "mako_1895_calw": "Mako 1895 zarpa",
+  "mako_1895_aperture": "Mako 1895 con apertura",
+  "marathon": "Marathon",
+  "marathon_swift": "Marathon veloz",
+  "martini_henry": "Martini-Henry",
+  "martini_henry_deadeye": "Martini-Henry tirador certero",
+  "martini_henry_ironside": "Martini-Henry ferrea",
+  "martini_henry_marksman": "Martini-Henry tirador preciso",
+  "martini_henry_riposte": "Martini-Henry cortante",
+  "maynard": "Maynard de francotirador",
+  "maynard_sliencer": "Maynard de francotirador silenciado",
+  "mosin": "Mosin-Nagant",
+  "mosin_avtomat": "Mosin Avtomat",
+  "mosin_sniper": "Mosin de francotirador",
+  "mosin_bayonet": "Mosin con bayoneta",
+  "mosin_orbez": "Mosin Obrez certero",
+  "mosin_match": "Mosin Obrez competicion",
+  "nitro_express": "Nitro Express",
+  "ranger_73": "Ranger 73",
+  "ranger_73_aperture": "Ranger 73 apertura",
+  "ranger_73_swift": "Ranger 73 veloz",
+  "ranger_73_talon": "Ranger 73 garra",
+  "slate": "Renacer",
+  "slate_riposte": "Renacer cortante",
+  "sparks": "Sparks",
+  "sparks_silencer": "Sparks con silenciador",
+  "sparks_sniper": "Sparks de francotirador",
+  "specter": "Specter",
+  "specter_bayonet": "Specter con bayoneta",
+  "springfield": "Springfield",
+  "springfield_bayonet": "Springfield con bayoneta",
+  "springfield_marksman": "Springfield tirador preciso",
+  "terminus": "Terminus",
+  "vetterli_71": "Vetterli 71",
+  "vetterli_71_bayonet": "Vetterli 71 con bayoneta",
+  "vetterli_71_cyclone": "Vetterli 71 ciclón",
+  "vetterli_71_deadeye": "Vetterli 71 tirador certero",
+  "vetterli_71_marksman": "Vetterli 71 tirador preciso",
+  "vetterli_71_silencer": "Vetterli 71 con silenciador",
+  "infanteryL": "Infantería 73L",
+  "infanteryL_bayonet": "Infantería 73L con bayoneta",
+  "infanteryL_sniper": "Infantería 73L francotirador",
+  "hunting_bow": "Arco de caza",
+  "auto_4_short": "Auto-4 corto",
+  "bornheim_no_3_match": "Bornheim No. 3 de competicion",
+  "centennial_vanguard": "Centennial Vanguard",
+  "centennial_short": "Centennial corto",
+  "centennial_short_with_silencer": "Centennial corto silenciada",
+  "chu_ko_nu": "Chu Ko Nu",
+  "dolch_96_precision": "Dolch 96 precision",
+  "drilling_with_axe": "Drilling con hacha",
+  "short_drilling": "Drilling corta",
+  "bomb_lance": "Lanza granadas",
+  "mosin_obrez": "Mosin Obrez",
+  "mosin_obrez_maze": "Mosin Obrez maza",
+  "mosin_obrez_extended": "Mosin Obrez extendida",
+  "nagant_m1895_deadeye": "Nagant M1895 tirador certero",
+  "nagant_m1895_precision": "Nagant M1895 Precision",
+  "long_pistol_deadeye": "Pistola larga tirador certero",
+  "long_pistol_precision": "Pistola larga Precision",
+  "rival_78_short": "Rival 78 corta",
+  "rival_78_mace": "Rival 78 maza",
+  "romero_77_with_axe": "Romero 77 con hacha",
+  "romero_77_short": "Romero 77 corta",
+  "scottfield_precision": "Scottfield Precision",
+  "specter_1882_short": "Specter 1882 corta",
+  "springfield_1866_diana": "Springfield 1866 Diana",
+  "springfield_1866_striker": "Springfield 1866 Striker",
+  "springfield_1866_short": "Springfield 1866 corta",
+  "terminus_short": "Terminus corta",
+  "tunda": "Tunda",
+  "vandal_73c": "Vandal 73c",
+  "vandal_73c_diana": "Vandal 73c Diana",
+  "vandal_73c_striker": "Vandal 73c Striker"
+
+},
+  "herramientas": {
+    "alert_trip_mine": "Minas de alerta",
+    "bear_trap": "Trampas para osos",
+    "blank_fire_decoy": "Señuelo de fogueo",
+    "choke_bomb": "Bomba de asfixia",
+    "concertina_trip_mine": "Minas concertina",
+    "decoy_fuses": "Señuelos detonadores",
+    "decoys": "Señuelos",
+    "dusters": "Puño americano",
+    "derringer_pennyshot": "Derringer lanzamoneda",
+    "first_aid_kit": "Botiquín",
+    "flare_pistol": "Pistola de bengalas",
+    "fuses": "Espoletas",
+    "heavy_knife": "Cuchillo pesado",
+    "knife": "Cuchillo",
+    "knuckle_knife": "Cuchillo americano",
+    "poision_trip_mine": "Mina de veneno",
+    "quad_derringer": "Derringer quad",
+    "spyglass": "Catalejo",
+    "throwing_axes": "Hachas arrojadizas",
+    "throwing_knives": "Cuchillos arrojadizos",
+    "throwing_spear": "Lanza"
+},
+  "consumibles": {
+      "ammo_box": "Caja de municion",
+      "big_dynamite_bundle": "Paquete de dinamita grande",
+      "chocke_beetle": "Escarabajo asfixiante",
+      "fire_beetle": "Escarabajo de fuego",
+      "stalker_beetle": "Escarabajo perseguidor",
+      "chaos_bomb": "Bomba de caos",
+      "concertina_bomb": "Bombda concertina",
+      "dynamite_bundle":"Paquete de dinamita",
+      "dyanmite_stick": "Cartucho de dinamita",
+      "fire_bomb": "Bomba incendiaria",
+      "flash_bomb": "Bomba de destello",
+      "frag_bomb": "Bomba de fragmentacion",
+      "hellfire_bomb": "Bomba infernal",
+      "hive_bomb": "Bomba de colmena",
+      "liquid_fire_bomb": "Bomba incendiaria liquida",
+      "medical_pack": "Paquete medico",
+      "posion_bomb": "Bomba de veneno",
+      "tool_box": "Caja de herramientas",
+      "sticky_bomb": "Bomba adherente",
+      "waxed_dynamite_stick": "Cartucho de dinamita encerada",
+      "antidote_shot": "Inyección de antídoto",
+      "regeneration_shot": "Inyección de regeneracion",
+      "stamina_shot": "Inyección de resitencia",
+      "vitality_shot": "Inyección de vitalidad",
+      "antidote_shot_weak": "Inyección de antídoto (débil)",
+      "regeneration_shot_weak": "Inyección de regeneracion (débil)",
+      "stamina_shot_weak": "Inyección de resistencia (débil)",
+      "vitality_shot_weak": "Inyección de vitalidad (débil)",
+      "recovery_shot": "Inyección de recuperación",
+      "dark_dynamite": "Carga de dinamita oscura"
+
+
+    },
+    "ui": {
+      "primaria": "Primaria",
+      "secundaria": "Secundaria",
+      "consumibles": "Consumibles",
+      "herramientas": "Herramientas",
+      "total_estimado": "Total estimado",
+      "ajuste_maximo": "Se ajustó el loadout al máximo de {{maximo}} HuntDollars <:dollarhunt:1368733291846434887>",
+      "equipamiento_title": "Equipamiento Aleatorio"
+    },
+  
+
+  "version": {
+    "title": "Información de la Versión",
+    "bot_version": "Versión del Bot",
+    "game_version": "Versión del Juego",
+    "latest_changes": "Últimos Cambios",
+    "changelog": {
+      "added_version_command": "🆕 Agregado comando /version",
+      "equip_limit_support": "🎯 Comando /equipamiento ahora soporta límite de precio y objetos forzados",
+      "bugfixes_cleanup": "🛠️ Corrección de errores menores y limpieza de código",
+      "added_help_command": "📋 Nuevo comando /help"
+
+  }
+} 
+
+
+
+
+
+}
