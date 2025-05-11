@@ -27,8 +27,8 @@ module.exports = {
       .setDescription(helpDescription)
       .setColor(0x4b5320)
       .addFields(
-        { name: '/lodaut', value: equipamientoDesc },
-        { name: '/stats', value: estadisticasDesc },
+        { name: '/loadout', value: equipamientoDesc },
+        { name: '/stats (not enabled)', value: estadisticasDesc },
         { name: '/challenge', value: retosDesc },
         { name: '/version', value: versionDesc },
         { name: '/help', value: helpDesc }

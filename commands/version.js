@@ -16,8 +16,8 @@ module.exports = {
       .setTitle(version.title)
       .setColor(0x4b5320)
       .addFields(
-        { name: version.bot_version, value: '1.0.0', inline: true },
-        { name: version.game_version, value: '1.15.1', inline: true },
+        { name: version.bot_version, value: '1.5', inline: true },
+        { name: version.game_version, value: ' 2.3.0.1.', inline: true },
         { name: version.latest_changes, value: `
           • ${version.changelog.added_version_command}
           • ${version.changelog.equip_limit_support}
@@ -27,8 +27,9 @@ module.exports = {
       )
       .addFields(
         { name: '👥 Créditos', value: `
-          **DEV**: [soycbita](https://www.youtube.com/@soycbita)
-          **Collaborators**: [sr_chupapanza](https://www.twitch.tv/sr_chupapanza), [darckuru](https://www.twitch.tv/darckuru_)
+          **DEV**: [SoyCBITA](https://steamcommunity.com/id/soycbita/)
+          **Collaborators**: [Sr_Chupapanza](https://www.twitch.tv/sr_chupapanza), [Darckuru](https://www.twitch.tv/darckuru_)
+          **Portugues**: Pascuala
         ` }
       )
       .addFields(
